@@ -1,1 +1,3 @@
-# A websocket based service to comunicate gameboy-gamepad with gameboy-emulator 
+# gameboy-service
+
+A websocket based service to comunicate gameboy-gamepad with gameboy-emulator 
