@@ -1,7 +1,10 @@
 import express from 'express'
 import expressWs from 'express-ws'
+import { config as loadEnv } from 'dotenv'
 
-const port = 7777
+loadEnv()
+
+const port = Number.parseInt(process.env.PORT)
 const app = express()
 const emulators = new Map()
 const PACKET_GAMEPAD_CONNECTED = 1
